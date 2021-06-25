@@ -21,12 +21,15 @@
     height: 50px;
 }
 #section01{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://www.crushpixel.com/big-static12/preview4/pensive-programmer-working-on-on-934170.jpg") no-repeat center;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://www.crushpixel.com/big-static12/preview4/pensive-programmer-working-on-on-934170.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: white;
     display: flex;
     align-items: center;
-     min-width: 100vh;
     z-index: 1000;
 }
 #section03{
@@ -42,8 +45,7 @@
     border: 5px solid #fff;
 }
 #coders {
-    font-size: 70px;
-    ;
+    font-size: 5vw;
 }
 
 .context{
@@ -57,7 +59,7 @@
     top: 0;
     left: 0;
     width: 100%;
-   min-height: 135%;
+   min-height: 121%;
     overflow: hidden;
 }
 
