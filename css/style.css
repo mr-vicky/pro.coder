@@ -5,7 +5,7 @@
 }
 
 #logo{
-    background-color:  #42c569;
+    background-color: #3af5ad;
 }
 
 #h1 {
@@ -33,13 +33,13 @@
     z-index: 1000;
 }
 #section03{
-    background-color:#42c569;
+  background-image: linear-gradient( 135deg, #0ffcad 10%, #3af5ad 100%);
 }
 #section04{
-    background-color: #42c569;
+  background-image: linear-gradient( 135deg, #0ffcad 10%, #3af5ad 100%);
 }
 #section05{
-    background-color: #42c569;
+   background-image: linear-gradient( 135deg, #0ffcad 10%, #3af5ad 100%);
 }
 #image{
     border: 5px solid #fff;
